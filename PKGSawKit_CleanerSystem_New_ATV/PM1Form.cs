@@ -661,12 +661,15 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                         digitalDlg.Init("Backward", "Forward", "CH1 Cylinder Fwd/Bwd");
                         if (digitalDlg.ShowDialog() == DialogResult.OK)
                         {
-                            if (Global.GetDigValue((int)DigInputList.CH1_Door_Sensor_i) == "Off")
+                            if (!Global.MOTION_INTERLOCK_CHECK())
                             {
-                                MessageBox.Show("Chamber door is opened", "Notification");
-                                return;
+                                if (Global.GetDigValue((int)DigInputList.CH1_Door_Sensor_i) == "Off")
+                                {
+                                    MessageBox.Show("Chamber door is opened", "Notification");
+                                    return;
+                                }
                             }
-
+                            
                             if (digitalDlg.m_strResult == "Backward")
                             {
                                 //Global.SetDigValue((int)DigOutputList.CH1_Nozzle_Pwr_o, (uint)DigitalOffOn.On, ModuleName);
@@ -692,12 +695,15 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                         digitalDlg.Init2("Home", "Backward", "Forward", "CH1 Brush Fwd/Bwd");
                         if (digitalDlg.ShowDialog() == DialogResult.OK)
                         {
-                            if (Global.GetDigValue((int)DigInputList.CH1_Door_Sensor_i) == "Off")
+                            if (!Global.MOTION_INTERLOCK_CHECK())
                             {
-                                MessageBox.Show("Chamber door is opened", "Notification");
-                                return;
+                                if (Global.GetDigValue((int)DigInputList.CH1_Door_Sensor_i) == "Off")
+                                {
+                                    MessageBox.Show("Chamber door is opened", "Notification");
+                                    return;
+                                }
                             }
-
+                            
                             if (digitalDlg.m_strResult == "Home")
                             {
                                 //Global.SetDigValue((int)DigOutputList.CH1_Brush_Pwr_o, (uint)DigitalOffOn.Off, ModuleName);
