@@ -1,0 +1,31 @@
+[2025-01-07, 09:41:36] CH1_AirValve_Top_o : Off
+[2025-01-07, 09:41:36] CH1_AirValve_Top_o : Off
+[2025-01-07, 09:41:37] CH1_AirValve_Bot_o : Off
+[2025-01-07, 09:41:37] CH1_AirValve_Bot_o : Off
+[2025-01-07, 09:41:37] CH1_WaterValve_Top_o : Off
+[2025-01-07, 09:41:37] Hot_Water_Pump_o : Off
+[2025-01-07, 09:41:37] Hot_WaterHeater_o : Off
+[2025-01-07, 09:41:37] CH1_WaterValve_Top_o : Off
+[2025-01-07, 09:41:37] CH1_AirValve_Bot_o : Off
+[2025-01-07, 09:41:37] CH1_WaterValve_Top_o : Off
+[2025-01-07, 09:41:37] Hot_Water_Pump_o : Off
+[2025-01-07, 09:41:37] Hot_WaterHeater_o : Off
+[2025-01-07, 09:41:37] Hot_Water_Pump_o : Off
+[2025-01-07, 09:41:37] Hot_WaterHeater_o : Off
+[2025-01-07, 09:41:37] Main_Water_Supply : Off
+[2025-01-07, 09:41:37] Hot_Water_Pump_o : Off
+[2025-01-07, 09:41:37] Main_Water_Supply : Off
+[2025-01-07, 09:41:37] Buzzer_o : On
+[2025-01-07, 09:43:35] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 10:05:06] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 10:07:30] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 10:11:48] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 10:56:37] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 11:00:47] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 11:44:55] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:07:17] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:10:33] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:13:20] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:14:46] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:16:43] [LOG-IN] [000000_Amkor_Master]
+[2025-01-07, 14:20:02] [LOG-IN] [000000_Amkor_Master]

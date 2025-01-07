@@ -311,7 +311,7 @@
         public static byte MaintCurrentPage = 0;
         public static byte RecipeCurrentPage = 0;
 
-        public static bool bInterlockRelease = false;
+        public static bool bInterlockRelease = true;
         public static string sInterlockMsg = "";        
         public static string sInterlockChecklist = "";
         public static bool bDoorAutoRelease = false;
@@ -421,10 +421,6 @@
         public const int axis_r = 0;   // Brush rotation axis
 
         // PKG saw-kit barcode
-        public static string[] strToolBarcode = { string.Empty, string.Empty };
-
-        // Heater controller
-        public static double temp_PV = 0.0;
-        public static double temp_SV = 0.0;
+        public static string[] strToolBarcode = { string.Empty, string.Empty };        
     }    
 }

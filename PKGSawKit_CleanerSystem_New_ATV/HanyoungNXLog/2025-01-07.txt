@@ -1,0 +1,33 @@
+[2025-01-07, 14:13:14:711] Successfully read communication port information
+[2025-01-07, 14:13:14:739] Successfully opened port
+[2025-01-07, 14:13:24:045] 01DWS,01,0103,0190
+
+[2025-01-07, 14:13:24:091] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:13:28:578] 01DWS,01,0103,01F4
+
+[2025-01-07, 14:13:28:633] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:13:48:357] 01DWS,01,0103,0258
+
+[2025-01-07, 14:13:48:402] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:13:52:542] 01DWS,01,0103,0226
+
+[2025-01-07, 14:13:52:593] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:13:57:306] 01DWS,01,0103,0226
+
+[2025-01-07, 14:13:57:360] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:14:43:214] Successfully read communication port information
+[2025-01-07, 14:14:43:245] Successfully opened port
+[2025-01-07, 14:14:53:900] 01DWS,01,0103,006E
+
+[2025-01-07, 14:14:56:778] 작업 시간을 초과했습니다.
+[2025-01-07, 14:14:57:304] 작업 시간을 초과했습니다.
+[2025-01-07, 14:16:38:917] Successfully read communication port information
+[2025-01-07, 14:16:38:938] Successfully opened port
+[2025-01-07, 14:19:59:060] Successfully read communication port information
+[2025-01-07, 14:19:59:134] Successfully opened port
+[2025-01-07, 14:20:07:489] 01DWS,01,0103,035A
+
+[2025-01-07, 14:20:07:541] Temperature setting in the controller was completed successfully
+[2025-01-07, 14:20:12:365] 01DWS,01,0103,01C7
+
+[2025-01-07, 14:20:12:419] Temperature setting in the controller was completed successfully

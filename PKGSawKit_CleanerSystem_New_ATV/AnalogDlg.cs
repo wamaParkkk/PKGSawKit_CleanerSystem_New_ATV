@@ -27,6 +27,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
 
             ana.min = -9999;
             ana.max = 9999999;
+            ana.dec = 1;
         }
 
         private void AnalogDlg_Load(object sender, EventArgs e)
