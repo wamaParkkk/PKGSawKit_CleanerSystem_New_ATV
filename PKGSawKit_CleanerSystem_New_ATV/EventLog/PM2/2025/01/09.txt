@@ -1,0 +1,11 @@
+[2025-01-09, 11:35:25] CH2_AirValve_Top_o : Off
+[2025-01-09, 11:35:25] CH2_AirValve_Bot_o : Off
+[2025-01-09, 11:35:25] CH2_WaterValve_Top_o : Off
+[2025-01-09, 11:35:25] CH2_AirValve_Top_o : Off
+[2025-01-09, 11:35:25] CH2_AirValve_Bot_o : Off
+[2025-01-09, 11:35:25] CH2_WaterValve_Top_o : Off
+[2025-01-09, 11:38:33] FluorescentLamp_o : On
+[2025-01-09, 11:49:09] FluorescentLamp_o : On
+[2025-01-09, 11:50:56] FluorescentLamp_o : On
+[2025-01-09, 11:52:02] FluorescentLamp_o : On
+[2025-01-09, 11:55:43] FluorescentLamp_o : On

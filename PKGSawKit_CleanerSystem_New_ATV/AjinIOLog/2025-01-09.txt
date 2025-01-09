@@ -1,0 +1,6 @@
+[2025-01-09, 11:35:25] Could not do the open the driver
+[2025-01-09, 11:38:32] Could not do the open the driver
+[2025-01-09, 11:49:09] Could not do the open the driver
+[2025-01-09, 11:50:55] Could not do the open the driver
+[2025-01-09, 11:52:02] Could not do the open the driver
+[2025-01-09, 11:55:42] Could not do the open the driver

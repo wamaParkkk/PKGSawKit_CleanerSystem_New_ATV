@@ -198,7 +198,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                         else if (e.RowIndex >= 3)
                         {
                             AnaDlg = new AnalogDlg();
-                            AnaDlg.Init();
+                            AnaDlg.Init(0);
                             if (AnaDlg.ShowDialog() == DialogResult.OK)
                             {
                                 cell.Value = AnaDlg.m_strResult;
