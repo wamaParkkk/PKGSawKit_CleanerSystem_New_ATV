@@ -645,8 +645,6 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             // checkBoxInterlockRelease
             // 
             this.checkBoxInterlockRelease.AutoSize = true;
-            this.checkBoxInterlockRelease.Checked = true;
-            this.checkBoxInterlockRelease.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxInterlockRelease.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxInterlockRelease.ForeColor = System.Drawing.Color.Navy;
             this.checkBoxInterlockRelease.Location = new System.Drawing.Point(16, 19);
