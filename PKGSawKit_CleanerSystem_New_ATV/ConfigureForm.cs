@@ -61,7 +61,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                         txtBoxWaterOverTempSet.Text = (Configure_List.Heater_OverTempSet).ToString();
                     }
                 }
-            }
+            }                      
         }
 
         private void MOTION_PARAMETER_LOAD()
@@ -128,7 +128,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 Configure_List.Heater_TempSet = double.Parse(sWaterTempSet);
                 Configure_List.Heater_OverTempSet = double.Parse(sWaterOverTempSet);
 
-                MessageBox.Show("Configure 값이 저장 되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Configure 값이 저장 되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);                
             }
             else
             {

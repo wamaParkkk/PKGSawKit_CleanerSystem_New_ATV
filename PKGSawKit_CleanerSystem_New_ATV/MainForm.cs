@@ -82,12 +82,13 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             // Heater controller
             HanyoungNXClass.HanyoungNX_Init();
 
-            Global.Init();
+            Global.Init();            
 
             // 가동 시간 불러오기
             RUNTIME_LOAD();
 
-            timerDisplay.Enabled = true;            
+            timerDisplay.Enabled = true;
+            HeaterInitTimer.Enabled = true;            
 
             SubFormShow((byte)Page.LogInPage);
 
@@ -791,6 +792,15 @@ namespace PKGSawKit_CleanerSystem_New_ATV
         {
             WritePrivateProfileString("TodayRuntime", "Time", "0", string.Format("{0}{1}", Global.dailyCntfilePath, "TodayRuntime.ini"));
             Define.dTodayRunTime = 0;
+        }
+
+        private void HeaterInitTimer_Tick(object sender, EventArgs e)
+        {
+            // Water temp 초기 셋팅
+            HanyoungNXClass.set_Temp(Configure_List.Heater_TempSet);
+            HanyoungNXClassLibrary.Define.temp_SV = Configure_List.Heater_TempSet;
+
+            HeaterInitTimer.Enabled = false;
         }
     }
 }

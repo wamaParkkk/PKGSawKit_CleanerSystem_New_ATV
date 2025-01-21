@@ -262,7 +262,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 prcsInfo.prcsStepCurrentTime[nModuleCnt] = 1;
                 prcsInfo.prcsStepTotalTime[nModuleCnt] = 0;
                 prcsInfo.prcsEndTime[nModuleCnt] = string.Empty;
-            }
+            }            
 
             interlockDisplayForm = new InterlockDisplayForm();            
 
