@@ -296,7 +296,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             else
             {
-                MessageBox.Show("EE 서버 접속에 실패했습니다", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Failed to connect to EE server", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }     
             */
         }

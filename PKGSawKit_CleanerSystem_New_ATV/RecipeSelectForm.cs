@@ -40,7 +40,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 }
                 else
                 {
-                    MessageBox.Show("선택한 챔버 정보가 없습니다. 프로세스를 재 진행해 주세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("No information for the selected chamber. Please rerun the process", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
 
@@ -61,7 +61,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 

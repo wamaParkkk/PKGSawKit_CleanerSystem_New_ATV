@@ -83,7 +83,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -141,12 +141,12 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 }
                 else
                 {
-                    MessageBox.Show("Recipe 파일이 선택 되지 않았습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Recipe file not selected", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -209,7 +209,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -232,7 +232,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                     string RecipePath = string.Format("{0}PM2\\", Global.RecipeFilePath);                    
                     if (File.Exists(string.Format("{0}{1}", RecipePath, txt_RecipeFileName.Text)))
                     {
-                        MessageBox.Show("같은 이름의 파일이 이미 존재 합니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("A file with the same name already exists", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
                     else
@@ -245,7 +245,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -286,7 +286,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             {
                                 if (File.Exists(strCopyName))
                                 {
-                                    MessageBox.Show("같은 이름의 파일이 이미 존재 합니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    MessageBox.Show("A file with the same name already exists", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                     return;
                                 }
                                 else
@@ -302,7 +302,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -344,7 +344,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -395,7 +395,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 csvExport.Close();
                 fs.Close();
 
-                MessageBox.Show("Recipe 파일을 저장 했습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Recipe file has been saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 NEditMode = (int)RecipeEditMode.NORMAL_MODE;
                 Get_lstRecipeFile();
@@ -404,7 +404,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -423,7 +423,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
 
                         if (File.Exists(strFileName))
                         {
-                            if (MessageBox.Show("Recipe 파일을 삭제 하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                            if (MessageBox.Show("Are you sure you want to delete the recipe file?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                             {
                                 File.Delete(strFileName);
                             }
@@ -438,7 +438,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -467,7 +467,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -500,7 +500,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -529,14 +529,14 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 }
                 else
                 {
-                    MessageBox.Show("최소 한 개의 공정 스탭은 필요 합니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("At least one item is required", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
 
                 CurrentCol_Update();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 
@@ -555,7 +555,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 

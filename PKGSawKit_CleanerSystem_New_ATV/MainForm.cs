@@ -283,9 +283,9 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                         break;
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("폼 양식을 가져오는 도중 오류가 발생했습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -371,7 +371,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("프로그램을 종료 하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            if (MessageBox.Show("Are you sure you want to quit the program?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 Dispose();
                 //Application.Exit();

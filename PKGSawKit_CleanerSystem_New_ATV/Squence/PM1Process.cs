@@ -652,7 +652,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV.Squence
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
             }
         }
 

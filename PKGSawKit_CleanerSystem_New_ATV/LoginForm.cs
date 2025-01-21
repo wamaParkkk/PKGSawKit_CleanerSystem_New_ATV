@@ -68,7 +68,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 }
                 catch (OleDbException ex)
                 {
-                    MessageBox.Show(ex.Message, "알림");
+                    MessageBox.Show(ex.Message, "Notification");
                 }
                 finally
                 {
@@ -105,7 +105,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 }
                 catch (OleDbException ex)
                 {
-                    MessageBox.Show(ex.Message, "알림");
+                    MessageBox.Show(ex.Message, "Notification");
                 }
                 finally
                 {
@@ -176,14 +176,14 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                     }
                     else
                     {
-                        MessageBox.Show("사원번호 또는 비밀번호를 확인해주세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Please check your employee number or password", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                     reader.Close();
                 }
                 catch (OleDbException ex)
                 {
-                    MessageBox.Show(ex.Message, "알림");
+                    MessageBox.Show(ex.Message, "Notification");
                 }
                 finally
                 {

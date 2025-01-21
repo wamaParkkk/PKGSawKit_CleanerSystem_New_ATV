@@ -106,7 +106,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 sVal[0] = sTemp;
                 if (!Global.Value_Check(sVal))
                 {
-                    MessageBox.Show("잘못 된 값이 입력되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Invalid input", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     textBox.Text = "0";
                 }
             }
@@ -128,11 +128,11 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 Configure_List.Heater_TempSet = double.Parse(sWaterTempSet);
                 Configure_List.Heater_OverTempSet = double.Parse(sWaterOverTempSet);
 
-                MessageBox.Show("Configure 값이 저장 되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);                
+                MessageBox.Show("Configure values has been saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);                
             }
             else
             {
-                MessageBox.Show("Configure 값이 저장 되지 않았습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Configure values has not been saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -148,7 +148,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
                 return false;
             }
         }
@@ -161,11 +161,11 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             {                
                 Configure_List.Brush_Rotation_Speed = int.Parse(sBrushRotationSpeed);                                
 
-                MessageBox.Show("Motion parameter 값이 저장 되었습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Motion parameter values has been saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Motion parameter 값이 저장 되지 않았습니다.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Motion parameter values has not been saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -181,7 +181,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "알림");
+                MessageBox.Show(ex.Message, "Notification");
                 return false;
             }
         }

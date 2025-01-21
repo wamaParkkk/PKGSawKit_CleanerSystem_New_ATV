@@ -835,25 +835,25 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             /*
                             if (Global.GetDigValue((int)DigInputList.Front_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Front door가 열려 있습니다", "알림");
+                                MessageBox.Show("Front door is opened", "Notification");
                                 return;
                             }
                             */
                             if (Global.GetDigValue((int)DigInputList.Left_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Left door가 열려 있습니다", "알림");
+                                MessageBox.Show("Left door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Right_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Right door가 열려 있습니다", "알림");
+                                MessageBox.Show("Right door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Back_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Back door가 열려 있습니다", "알림");
+                                MessageBox.Show("Back door is opened", "Notification");
                                 return;
                             }
 
@@ -864,7 +864,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             }
                         }
 
-                        if (MessageBox.Show("공정을 진행 하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                        if (MessageBox.Show("Do you want to proceed with the process?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                         {
                             Define.iSelectRecipeModule = (int)MODULE._PM1;
 
@@ -887,25 +887,25 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             /*
                             if (Global.GetDigValue((int)DigInputList.Front_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Front door가 열려 있습니다", "알림");
+                                MessageBox.Show("Front door is opened", "Notification");
                                 return;
                             }
                             */
                             if (Global.GetDigValue((int)DigInputList.Left_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Left door가 열려 있습니다", "알림");
+                                MessageBox.Show("Left door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Right_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Right door가 열려 있습니다", "알림");
+                                MessageBox.Show("Right door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Back_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Back door가 열려 있습니다", "알림");
+                                MessageBox.Show("Back door is opened", "Notification");
                                 return;
                             }
 
@@ -922,7 +922,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
 
                 case "Stop":
                     {
-                        if (MessageBox.Show("공정을 중지하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                        if (MessageBox.Show("Do you want to stop the process?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                         {
                             Define.seqCtrl[(byte)MODULE._PM1] = Define.CTRL_ABORT;
                         }
@@ -945,25 +945,25 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             /*
                             if (Global.GetDigValue((int)DigInputList.Front_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Front door가 열려 있습니다", "알림");
+                                MessageBox.Show("Front door is opened", "Notification");
                                 return;
                             }
                             */
                             if (Global.GetDigValue((int)DigInputList.Left_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Left door가 열려 있습니다", "알림");
+                                MessageBox.Show("Left door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Right_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Right door가 열려 있습니다", "알림");
+                                MessageBox.Show("Right door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Back_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Back door가 열려 있습니다", "알림");
+                                MessageBox.Show("Back door is opened", "Notification");
                                 return;
                             }
 
@@ -974,7 +974,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             }
                         }
 
-                        if (MessageBox.Show("공정을 진행 하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                        if (MessageBox.Show("Do you want to proceed with the process?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                         {
                             Define.iSelectRecipeModule = (int)MODULE._PM2;
 
@@ -997,25 +997,25 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             /*
                             if (Global.GetDigValue((int)DigInputList.Front_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Front door가 열려 있습니다", "알림");
+                                MessageBox.Show("Front door is opened", "Notification");
                                 return;
                             }
                             */
                             if (Global.GetDigValue((int)DigInputList.Left_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Left door가 열려 있습니다", "알림");
+                                MessageBox.Show("Left door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Right_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Right door가 열려 있습니다", "알림");
+                                MessageBox.Show("Right door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Back_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Back door가 열려 있습니다", "알림");
+                                MessageBox.Show("Back door is opened", "Notification");
                                 return;
                             }
 
@@ -1032,7 +1032,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
 
                 case "Stop":
                     {
-                        if (MessageBox.Show("공정을 중지하겠습니까?", "알림", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                        if (MessageBox.Show("Do you want to stop the process?", "Notification", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                         {
                             Define.seqCtrl[(byte)MODULE._PM2] = Define.CTRL_ABORT;
                         }
@@ -1055,25 +1055,25 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                             /*
                             if (Global.GetDigValue((int)DigInputList.Front_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Front door가 열려 있습니다", "알림");
+                                MessageBox.Show("Front door is opened", "Notification");
                                 return;
                             }
                             */
                             if (Global.GetDigValue((int)DigInputList.Left_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Left door가 열려 있습니다", "알림");
+                                MessageBox.Show("Left door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Right_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Right door가 열려 있습니다", "알림");
+                                MessageBox.Show("Right door is opened", "Notification");
                                 return;
                             }
 
                             if (Global.GetDigValue((int)DigInputList.Back_Door_Sensor_i) == "Off")
                             {
-                                MessageBox.Show("Back door가 열려 있습니다", "알림");
+                                MessageBox.Show("Back door is opened", "Notification");
                                 return;
                             }
 
