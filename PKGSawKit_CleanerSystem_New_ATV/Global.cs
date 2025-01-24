@@ -729,7 +729,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
                 ////////////////////////////////////////////////////////////////////////////////////////////////
 
                 // 공정 중 Door open시, 시퀀스 Wait / 모터 Stop
-                _F_DOOR_OPEN_SEQ();
+                //_F_DOOR_OPEN_SEQ();
             }
 
 
