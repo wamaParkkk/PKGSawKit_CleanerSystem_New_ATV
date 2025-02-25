@@ -1,0 +1,9 @@
+[2025-02-21, 10:47:47] Mot File Not Found
+[2025-02-21, 10:47:47] Ajin motion driver initialization fail
+[2025-02-21, 10:47:47] Ajin motion driver close
+[2025-02-21, 10:48:44] AxmMoveSStop return error code : 1053
+[2025-02-21, 10:48:44] AxmMoveSStop return error code : 1053
+[2025-02-21, 10:49:54] AxmMoveSStop return error code : 1053
+[2025-02-21, 11:27:11] Mot File Not Found
+[2025-02-21, 11:27:11] Ajin motion driver initialization fail
+[2025-02-21, 11:27:11] Ajin motion driver close

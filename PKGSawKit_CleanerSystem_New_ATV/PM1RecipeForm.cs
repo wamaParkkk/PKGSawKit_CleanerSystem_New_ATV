@@ -56,7 +56,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             recipeGrid.Rows.Add("Air");
             recipeGrid.Rows.Add("Water");            
             recipeGrid.Rows.Add("Brush");
-            recipeGrid.Rows.Add("공정 시간");
+            recipeGrid.Rows.Add("Process Time");
 
             Get_lstRecipeFile();
 

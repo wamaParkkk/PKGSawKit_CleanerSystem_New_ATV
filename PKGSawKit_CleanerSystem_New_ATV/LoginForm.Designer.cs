@@ -37,11 +37,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbltitle = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.textBoxLevel = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,7 +57,7 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(193, 29);
             this.textBoxName.TabIndex = 23;
-            this.textBoxName.Text = "이름";
+            this.textBoxName.Text = "ID";
             this.textBoxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBoxId
@@ -82,7 +82,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(193, 29);
             this.textBoxPassword.TabIndex = 21;
-            this.textBoxPassword.Text = "비밀번호";
+            this.textBoxPassword.Text = "Password";
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxPassword.Click += new System.EventHandler(this.textBoxPassword_Click);
             this.textBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxPassword_KeyDown);
@@ -110,9 +110,9 @@
             this.lbltitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(176)))));
             this.lbltitle.Location = new System.Drawing.Point(524, 199);
             this.lbltitle.Name = "lbltitle";
-            this.lbltitle.Size = new System.Drawing.Size(186, 37);
+            this.lbltitle.Size = new System.Drawing.Size(166, 37);
             this.lbltitle.TabIndex = 27;
-            this.lbltitle.Text = "사용자 로그인";
+            this.lbltitle.Text = "User Log-In";
             // 
             // btnLogin
             // 
@@ -128,10 +128,16 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(100, 42);
             this.btnLogin.TabIndex = 28;
-            this.btnLogin.Text = "로그인";
+            this.btnLogin.Text = "Enter";
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "Log-in.png");
             // 
             // textBoxLevel
             // 
@@ -143,7 +149,7 @@
             this.textBoxLevel.Name = "textBoxLevel";
             this.textBoxLevel.Size = new System.Drawing.Size(193, 29);
             this.textBoxLevel.TabIndex = 29;
-            this.textBoxLevel.Text = "권한";
+            this.textBoxLevel.Text = "Authority";
             this.textBoxLevel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox3
@@ -175,12 +181,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // imageList
-            // 
-            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "Log-in.png");
             // 
             // LoginForm
             // 

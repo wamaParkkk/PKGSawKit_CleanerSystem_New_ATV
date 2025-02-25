@@ -1,6 +1,6 @@
-﻿Item/Step,1,2,3
-Step Name,air,,
-Air,On,Off,Off
-Water,Off,On,Off
-Brush,Off,Off,On
-공정 시간,60,120,80
+﻿Item/Step,1,2,3,4
+Step Name,Air-clean,Water,Brush,Air-clean
+Air,On,Off,Off,On
+Water,Off,On,Off,Off
+Brush,Off,Off,On,Off
+Process Time,60,180,180,300

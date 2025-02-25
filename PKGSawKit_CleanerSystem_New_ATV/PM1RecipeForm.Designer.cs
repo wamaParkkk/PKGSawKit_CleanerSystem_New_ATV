@@ -79,7 +79,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_Save.Name = "btn_RecipeFile_Save";
             this.btn_RecipeFile_Save.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_Save.TabIndex = 75;
-            this.btn_RecipeFile_Save.Text = "저장";
+            this.btn_RecipeFile_Save.Text = "SAVE";
             this.btn_RecipeFile_Save.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_Save.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_Save.Click += new System.EventHandler(this.btn_RecipeFile_Save_Click);
@@ -96,7 +96,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_Edit.Name = "btn_RecipeFile_Edit";
             this.btn_RecipeFile_Edit.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_Edit.TabIndex = 74;
-            this.btn_RecipeFile_Edit.Text = "수정";
+            this.btn_RecipeFile_Edit.Text = "EDIT";
             this.btn_RecipeFile_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_Edit.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_Edit.Click += new System.EventHandler(this.btn_RecipeFile_Edit_Click);
@@ -113,7 +113,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeStep_Insert.Name = "btn_RecipeStep_Insert";
             this.btn_RecipeStep_Insert.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeStep_Insert.TabIndex = 73;
-            this.btn_RecipeStep_Insert.Text = "삽입";
+            this.btn_RecipeStep_Insert.Text = "INSERT";
             this.btn_RecipeStep_Insert.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeStep_Insert.UseVisualStyleBackColor = false;
             this.btn_RecipeStep_Insert.Click += new System.EventHandler(this.btn_RecipeStep_Insert_Click);
@@ -199,7 +199,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_Cancel.Name = "btn_RecipeFile_Cancel";
             this.btn_RecipeFile_Cancel.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_Cancel.TabIndex = 66;
-            this.btn_RecipeFile_Cancel.Text = "취소";
+            this.btn_RecipeFile_Cancel.Text = "CANCEL";
             this.btn_RecipeFile_Cancel.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_Cancel.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_Cancel.Click += new System.EventHandler(this.btn_RecipeFile_Cancel_Click);
@@ -216,7 +216,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_Copy.Name = "btn_RecipeFile_Copy";
             this.btn_RecipeFile_Copy.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_Copy.TabIndex = 65;
-            this.btn_RecipeFile_Copy.Text = "복사";
+            this.btn_RecipeFile_Copy.Text = "COPY";
             this.btn_RecipeFile_Copy.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_Copy.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_Copy.Click += new System.EventHandler(this.btn_RecipeFile_Copy_Click);
@@ -233,7 +233,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_Del.Name = "btn_RecipeFile_Del";
             this.btn_RecipeFile_Del.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_Del.TabIndex = 64;
-            this.btn_RecipeFile_Del.Text = "삭제";
+            this.btn_RecipeFile_Del.Text = "DEL";
             this.btn_RecipeFile_Del.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_Del.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_Del.Click += new System.EventHandler(this.btn_RecipeFile_Del_Click);
@@ -250,7 +250,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeFile_New.Name = "btn_RecipeFile_New";
             this.btn_RecipeFile_New.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeFile_New.TabIndex = 63;
-            this.btn_RecipeFile_New.Text = "생성";
+            this.btn_RecipeFile_New.Text = "NEW";
             this.btn_RecipeFile_New.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeFile_New.UseVisualStyleBackColor = false;
             this.btn_RecipeFile_New.Click += new System.EventHandler(this.btn_RecipeFile_New_Click);
@@ -267,7 +267,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeStep_Del.Name = "btn_RecipeStep_Del";
             this.btn_RecipeStep_Del.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeStep_Del.TabIndex = 62;
-            this.btn_RecipeStep_Del.Text = "삭제";
+            this.btn_RecipeStep_Del.Text = "DEL";
             this.btn_RecipeStep_Del.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeStep_Del.UseVisualStyleBackColor = false;
             this.btn_RecipeStep_Del.Click += new System.EventHandler(this.btn_RecipeStep_Del_Click);
@@ -284,7 +284,7 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             this.btn_RecipeStep_Add.Name = "btn_RecipeStep_Add";
             this.btn_RecipeStep_Add.Size = new System.Drawing.Size(67, 37);
             this.btn_RecipeStep_Add.TabIndex = 61;
-            this.btn_RecipeStep_Add.Text = "추가";
+            this.btn_RecipeStep_Add.Text = "ADD";
             this.btn_RecipeStep_Add.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_RecipeStep_Add.UseVisualStyleBackColor = false;
             this.btn_RecipeStep_Add.Click += new System.EventHandler(this.btn_RecipeStep_Add_Click);

@@ -25,9 +25,9 @@ namespace PKGSawKit_CleanerSystem_New_ATV
             Top = 0;
             Left = 0;
 
-            textBoxName.Text = "이름";
-            textBoxLevel.Text = "권한";
-            textBoxPassword.Text = "비밀번호";
+            textBoxName.Text = "ID";
+            textBoxLevel.Text = "Authority";
+            textBoxPassword.Text = "Password";
             textBoxPassword.PasswordChar = '\0';
 
             UserDataUpdate();
