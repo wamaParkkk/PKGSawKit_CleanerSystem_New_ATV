@@ -52,9 +52,8 @@ namespace PKGSawKit_CleanerSystem_New_ATV
         public static string ConfigurePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\Configure\"));
         public static string serialPortInfoPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\SerialComm\"));
         public static string dailyCntfilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, @"..\..\DailyCount\"));
-
-        public static string hostEquipmentInfo = "K5EE_PKGsawCleaningSystem";
-        public static string hostEquipmentInfo_Log = "K5EE_PKGsawCleaningSystemLog";
+        
+        public static string hostEquipmentInfo_Log = "K5EE_PKGsawCleaningSystemLog_ATV";
 
         private static Timer timer = new Timer();
 
